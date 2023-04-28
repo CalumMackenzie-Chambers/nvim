@@ -1,18 +1,18 @@
 return {
-    {
-        "sainnhe/everforest",
-        init = function()
-            vim.g.everforest_better_performance = 1
-            vim.g.everforest_enable_italic = 1
-            vim.g.everforest_transparent_background = 1
-            vim.g.everforest_diagnostic_text_highlight = 1
-            vim.g.everforest_disable_terminal_colors = 1
-        end,
+  -- add gruvbox
+  {
+    "ellisonleao/gruvbox.nvim",
+    opts = {
+      transparent_mode = true,
+      contrast = "soft",
     },
-    {
-        "LazyVim/LazyVim",
-        opts = {
-            colorscheme = "everforest",
-        },
+  },
+
+  -- Configure LazyVim to load gruvbox
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "gruvbox",
     },
+  },
 }
