@@ -13,4 +13,4 @@ opt.writebackup = false
 opt.swapfile = false
 opt.hlsearch = false
 
-vim.g.python3_host_prog = "/Users/calum/.pyenv/versions/3.10.6/envs/neovim310/bin/python3.10"
+vim.g.python3_host_prog = "$HOME/.pyenv/versions/3.10.6/envs/neovim310/bin/python3.10"
