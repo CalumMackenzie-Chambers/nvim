@@ -17,6 +17,9 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.dap.core" },
     { import = "plugins" },
+    { import = "plugins.extras.lang.rust" },
+    { import = "plugins.extras.lang.csharp" },
+    { import = "plugins.extras.lang.svelte" },
   },
   defaults = {
     lazy = true,
